@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textview_label_sigla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:hint="@string/hint_sigla"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_moeda_sigla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textview_label_sigla"
+        app:layout_constraintTop_toTopOf="@+id/textview_label_sigla" />
+
+    <TextView
+        android:id="@+id/textview_label_moeda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:hint="@string/hint_moeda"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_moeda_sigla" />
+
+    <TextView
+        android:id="@+id/textview_moeda_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textview_label_moeda"
+        app:layout_constraintTop_toTopOf="@+id/textview_label_moeda" />
+
+    <TextView
+        android:id="@+id/textview_label_traducao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:hint="@string/hint_traducao"
+        app:layout_constraintStart_toStartOf="parent"
+        android:paddingBottom="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textview_moeda_nome" />
+
+    <TextView
+        android:id="@+id/textview_moeda_traducao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        app:layout_constraintStart_toEndOf="@+id/textview_label_traducao"
+        app:layout_constraintTop_toTopOf="@+id/textview_label_traducao" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

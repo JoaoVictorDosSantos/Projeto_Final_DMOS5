@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">Projeto_Joao_Santos_DMOS5</string>
+    <string name="app_name">Casa da Moeda</string>
+
+    <string name="text_bem_vindo">Bem-vindo</string>
+    <string name="text_mensagem">Casa da Moeda</string>
+
+    <string name="hint_btn_atualiar_cotacao">Atualizar Cotação</string>
+    <string name="hint_btn_cotacao">Cotação das Moedas</string>
+    <string name="hint_nome">Procurar Moeda</string>
+    <string name="hint_btn_pesquisar">Pesquisar</string>
+    <string name="hint_btn_moedas">Moedas</string>
+    <string name="hint_sigla">Sigla:</string>
+    <string name="hint_moeda">Moeda:</string>
+    <string name="hint_traducao">Tradução:</string>
+    <string name="hint_cotacao">Cotação:</string>
+    <string name="hint_data_cadastramento">Data Cadastramento:</string>
+    <string name="hint_moedas_titulo">Moedas</string>
+
+    <string name="campo_obrigatorio">Informado campo obrigatório.</string>
+    <string name="erro_api">Erro ao localizar as Moedas.</string>
+    <string name="explicacao_permissao">A busca das moedas depende do acesso a internet, sem essa permissão o aplicativo não consegue recuperar a informação desejada.</string>
+    <string name="botao_permitir">Permitir</string>
+    <string name="botao_nao_permitir">Agora não</string>
+
 </resources>
